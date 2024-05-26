@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recette Détail - Cuisinons Ensemble</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap">
+</head>
+<body>
+    <header class="bg-dark text-white text-center py-3">
+        <h1>Détails de la Recette</h1>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Accueil</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="recettes.html">Toutes les recettes</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="container my-5">
+        <section id="recette-detail">
+            <h2 id="recipeTitle">Titre de la Recette</h2>
+            <div class="recipe-details">
+                <img id="recipeImage" src="" alt="Image de la Recette" class="img-fluid">
+                <div class="mt-4">
+                    <h3 id="recipeNameDetail">Nom de la Recette</h3>
+                    <p id="recipeInstructions">Instructions de la recette...</p>
+                    <p><strong>Difficulté:</strong> <span id="recipeDifficulty"></span></p>
+                    <p><strong>Temps de préparation:</strong> <span id="recipePrepTime"></span></p>
+                    <p><strong>Temps de cuisson:</strong> <span id="recipeCookTime"></span></p>
+                    <h4>Ingrédients</h4>
+                    <ul id="ingredientList" class="list-group">
+                        <!-- Les ingrédients seront ajoutés ici dynamiquement -->
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="bg-dark text-white text-center py-3">
+        <p>© 2024 Cuisinons Ensemble by Feres Rekaya</p>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="js/recipe.js"></script>
+</body>
+</html>
